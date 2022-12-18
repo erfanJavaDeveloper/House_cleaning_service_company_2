@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="start again 3">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/OrderType.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Score.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/ServiceOfCompany_Dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Wallet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Worker.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Worker2Order.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="add xml file for some change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/House_cleaning_service_company.iml" beforeDir="false" afterPath="$PROJECT_DIR$/House_cleaning_service_company.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/Worker2Order/controller/Worker2OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/Worker2Order/controller/Worker2OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/domain/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/domain/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer$EmployerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer$EmployerBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +77,7 @@
       <updated>1670932897315</updated>
       <workItem from="1670932898543" duration="3927000" />
       <workItem from="1671253940320" duration="5483000" />
-      <workItem from="1671342315130" duration="2194000" />
+      <workItem from="1671342315130" duration="4383000" />
     </task>
     <task id="LOCAL-00001" summary="start again">
       <created>1670933327371</created>
@@ -117,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670933854994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add xml file for some change">
+      <created>1671345765328</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671345765328</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +128,7 @@
     <MESSAGE value="start again" />
     <MESSAGE value="start again 2" />
     <MESSAGE value="start again 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="start again 3" />
+    <MESSAGE value="add xml file for some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add xml file for some change" />
   </component>
 </project>
