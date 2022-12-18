@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="start again 2" />
+    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="start again 3">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/OrderType.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Score.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/ServiceOfCompany_Dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Wallet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Worker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Worker2Order.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/House_cleaning_service_company.iml" beforeDir="false" afterPath="$PROJECT_DIR$/House_cleaning_service_company.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/Worker2Order/controller/Worker2OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/Worker2Order/controller/Worker2OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/domain/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/domain/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer$EmployerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer$EmployerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/domain/Employer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,11 +36,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -41,11 +65,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/garbage" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eadine\Desktop\House_cleaning_service_company\src\main\resources\garbage" />
       <recent name="C:\Users\eadine\Desktop\House_cleaning_service_company\src\main\java\com\example\house_cleaning_service_company" />
     </key>
   </component>
@@ -66,7 +92,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670932897315</updated>
-      <workItem from="1670932898543" duration="648000" />
+      <workItem from="1670932898543" duration="3927000" />
+      <workItem from="1671253940320" duration="5483000" />
+      <workItem from="1671342315130" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="start again">
       <created>1670933327371</created>
@@ -82,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670933472079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="start again 3">
+      <created>1670933854994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670933854994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start again" />
     <MESSAGE value="start again 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="start again 2" />
+    <MESSAGE value="start again 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="start again 3" />
   </component>
 </project>

@@ -4,6 +4,8 @@ package com.example.house_cleaning_service_company.employer.domain;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
+
 
 @Builder
 @AllArgsConstructor
@@ -27,5 +29,17 @@ public class Employer {
     private String password;
 
     private String username;
+
+    @Basic
+    @Temporal(TemporalType.DATE)
+    private LocalDate birthDayDate ;
+
+    @Basic
+    @Temporal(TemporalType.DATE)
+    private  LocalDate registerDate= LocalDate.now();
+
+    @Basic
+    @Temporal(TemporalType.DATE)
+    private LocalDate registerTime = LocalDate.now();
 
 }
