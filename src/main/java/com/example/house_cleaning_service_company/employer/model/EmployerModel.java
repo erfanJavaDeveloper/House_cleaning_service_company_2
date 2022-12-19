@@ -25,11 +25,9 @@ public class EmployerModel  {
 
     private String username;
 
-
     private LocalDate birthDayDate ;
 
     private  LocalDate registerDate;
-
 
     private LocalDate registerTime ;
 

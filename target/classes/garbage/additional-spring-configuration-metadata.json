@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.orm",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.orm."
+  }
+] }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+                 version="2.0">
+
+    <named-query name="Employer.update">
+        <query>update Employer e set e.firstName=:firstName ,e.lastName=:lastName ,e.number=:number
+            ,e.password=:password ,e.username=:username where e.id=:id
+        </query>
+    </named-query>
+    
+    <named-native-query name="">
+        <query></query>
+    </named-native-query>
+
+
+
+<!--    <named-query name="Employer.update">-->
+<!--        <query>update Employer set firstName=?1 ,lastName=?2 ,number=?3 ,password=?4 ,username=?5 where id=?6</query>-->
+<!--    </named-query>-->
+</entity-mappings>

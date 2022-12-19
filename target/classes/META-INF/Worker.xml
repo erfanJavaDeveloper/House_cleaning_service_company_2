@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+                 version="2.0">
+
+    <named-query name="Worker.update">
+        <query>update Worker SET firstName=:firstName , lastName=:lastName , number=:number , password=:password ,
+            photo=:photo where id=:id
+        </query>
+    </named-query>
+
+    <named-query name="Worker.deleteAndUpdate">
+        <query>update Worker set isActive=:isActive where id=:id</query>
+    </named-query>
+
+    <named-query name="Worker.findAllByIsActive">
+        <query>select w from Worker w where w.isActive = ?1</query>
+    </named-query>
+
+
+</entity-mappings>
