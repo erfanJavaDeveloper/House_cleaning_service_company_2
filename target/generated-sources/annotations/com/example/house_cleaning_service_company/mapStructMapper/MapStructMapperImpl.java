@@ -24,7 +24,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-12-13T15:34:35+0330",
+    date = "2022-12-19T17:01:58+0330",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 17.0.4.1 (Amazon.com Inc.)"
 )
 @Component
@@ -44,6 +44,9 @@ public class MapStructMapperImpl implements MapStructMapper {
         employerModel.setNumber( employer.getNumber() );
         employerModel.setPassword( employer.getPassword() );
         employerModel.setUsername( employer.getUsername() );
+        employerModel.setBirthDayDate( employer.getBirthDayDate() );
+        employerModel.setRegisterDate( employer.getRegisterDate() );
+        employerModel.setRegisterTime( employer.getRegisterTime() );
 
         return employerModel;
     }
@@ -62,6 +65,9 @@ public class MapStructMapperImpl implements MapStructMapper {
         employer.number( employerModel.getNumber() );
         employer.password( employerModel.getPassword() );
         employer.username( employerModel.getUsername() );
+        employer.birthDayDate( employerModel.getBirthDayDate() );
+        employer.registerDate( employerModel.getRegisterDate() );
+        employer.registerTime( employerModel.getRegisterTime() );
 
         return employer.build();
     }

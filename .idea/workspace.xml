@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="add xml file for some change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/controller/EmployerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/controller/EmployerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/model/EmployerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/model/EmployerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/service/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/service/EmployerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/controller/EmployerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/controller/EmployerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/model/EmployerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/model/EmployerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/service/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/service/EmployerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -50,7 +63,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/garbage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../House cleaning service company" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -77,7 +91,8 @@
       <updated>1670932897315</updated>
       <workItem from="1670932898543" duration="3927000" />
       <workItem from="1671253940320" duration="5483000" />
-      <workItem from="1671342315130" duration="4383000" />
+      <workItem from="1671342315130" duration="2194000" />
+      <workItem from="1671427788980" duration="13489000" />
     </task>
     <task id="LOCAL-00001" summary="start again">
       <created>1670933327371</created>
@@ -100,14 +115,7 @@
       <option name="project" value="LOCAL" />
       <updated>1670933854994</updated>
     </task>
-    <task id="LOCAL-00004" summary="add xml file for some change">
-      <created>1671345765328</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671345765328</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -128,7 +148,6 @@
     <MESSAGE value="start again" />
     <MESSAGE value="start again 2" />
     <MESSAGE value="start again 3" />
-    <MESSAGE value="add xml file for some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="add xml file for some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="start again 3" />
   </component>
 </project>

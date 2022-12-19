@@ -8,6 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/employer")
 public class EmployerController {
@@ -38,6 +40,12 @@ public class EmployerController {
     public ResponseEntity<Employer> view(@PathVariable Long id){
             return ResponseEntity.status(HttpStatus.OK)
                 .body(employerService.view(id));
+    }
+
+    @GetMapping("/findAll")
+    public ResponseEntity<List<Employer>> findAll(){
+        return ResponseEntity.status(HttpStatus.OK)
+                .body(employerService.findAll());
     }
 
 }

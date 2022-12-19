@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
+import java.util.List;
+
 @Service
 @Transactional
 public class EmployerService {
@@ -19,6 +22,8 @@ public class EmployerService {
     private MapStructMapper mapStructMapper;
 
     public Employer save(EmployerModel employerModel) {
+        employerModel.setRegisterDate(LocalDate.now());
+        employerModel.setRegisterTime(LocalDate.now());
        return employerDao.save(mapStructMapper.convertEmployerModelToEmployerDomain(employerModel));
     }
 
@@ -38,6 +43,9 @@ public class EmployerService {
        return employerDao.findById(id).get();
     }
 
+    public List<Employer> findAll() {
+        return employerDao.findAll();
+    }
 }
 
 //        employerDao.save(convertModelToDomain(employerModel));
