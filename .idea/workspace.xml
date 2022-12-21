@@ -4,17 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="add xml file for some change">
+    <list default="true" id="e1b4798a-2c21-479a-958c-04b4a0637b4f" name="Changes" comment="set date for employer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/controller/EmployerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/controller/EmployerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/model/EmployerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/model/EmployerModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/service/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/service/EmployerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/controller/EmployerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/controller/EmployerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/House_cleaning_service_company.iml" beforeDir="false" afterPath="$PROJECT_DIR$/House_cleaning_service_company.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/dao/EmployerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/employer/dao/EmployerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/groupType/dao/GroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/groupType/dao/GroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/score/dao/ScoreDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/score/dao/ScoreDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/wallet/dao/WalletDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/wallet/dao/WalletDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/worker/dao/WorkerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/house_cleaning_service_company/worker/dao/WorkerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Employer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/employer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/GroupType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/groupType.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/OrderType.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/orderType.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Score.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/score.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/ServiceOfCompany_Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/serviceOfCompany_Dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Wallet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/wallet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Worker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/worker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/Worker2Order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/worker2Order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/orm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/garbage/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/House_cleaning_service_company-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/House_cleaning_service_company-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Employer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Employer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/dao/EmployerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/dao/EmployerDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/model/EmployerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/model/EmployerModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/service/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/employer/service/EmployerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/groupType/dao/GroupDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/groupType/dao/GroupDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/score/dao/ScoreDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/score/dao/ScoreDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/wallet/dao/WalletDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/wallet/dao/WalletDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/worker/dao/WorkerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/house_cleaning_service_company/worker/dao/WorkerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/garbage/additional-spring-configuration-metadata.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/house_cleaning_service_company/mapStructMapper/MapStructMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.house_cleaning_service_company.HouseCleaningServiceCompanyApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.house_cleaning_service_company.HouseCleaningServiceCompanyApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.house_cleaning_service_company.HouseCleaningServiceCompanyApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.house_cleaning_service_company.HouseCleaningServiceCompanyApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +50,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -63,7 +93,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../House cleaning service company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -93,6 +123,8 @@
       <workItem from="1671253940320" duration="5483000" />
       <workItem from="1671342315130" duration="2194000" />
       <workItem from="1671427788980" duration="13489000" />
+      <workItem from="1671527235248" duration="600000" />
+      <workItem from="1671613496037" duration="4179000" />
     </task>
     <task id="LOCAL-00001" summary="start again">
       <created>1670933327371</created>

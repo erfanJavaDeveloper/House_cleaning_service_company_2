@@ -19,6 +19,7 @@
           <factory-entry name="House_cleaning_service_company" value="68e1636d-011d-4b8f-b704-d8087a0fef35" />
         </datasource-mapping>
         <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/orm.xml" />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
@@ -35,7 +36,6 @@
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/annotations" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/main/resources/garbage" />
-      <excludeFolder url="file://$MODULE_DIR$/src/main/resources/META-INF" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

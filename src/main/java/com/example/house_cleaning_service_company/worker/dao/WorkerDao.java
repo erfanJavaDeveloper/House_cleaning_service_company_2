@@ -13,16 +13,30 @@ import java.util.List;
 @Repository
 public interface WorkerDao extends JpaRepository<Worker,Long> {
 
+//    @Modifying
+//    @Query(value = "update Worker SET firstName=:firstName , lastName=:lastName , number=:number , password=:password , photo=:photo where id=:id")
+//    WorkerModel update(String firstName, String lastName, String number, String password, String photo ,Long id);
+//
+//    @Modifying
+//    @Query(value = "update Worker set isActive=:isActive  where id=:id ")
+//    void deleteAndUpdate(IsActive isActive,Long id);
+//
+//    //todo this way is not true must make pagination
+//    @Query("select w from Worker w where w.isActive = ?1")
+//    List<Worker> findAllByIsActive(IsActive isActive);
+
+
+
     @Modifying
-    @Query(value = "update Worker SET firstName=:firstName , lastName=:lastName , number=:number , password=:password , photo=:photo where id=:id")
+    @Query(name = "Worker.update")
     WorkerModel update(String firstName, String lastName, String number, String password, String photo ,Long id);
 
     @Modifying
-    @Query(value = "update Worker set isActive=:isActive  where id=:id ")
+    @Query(name = "Worker.deleteAndUpdate")
     void deleteAndUpdate(IsActive isActive,Long id);
 
     //todo this way is not true must make pagination
-    @Query("select w from Worker w where w.isActive = ?1")
+    @Query(name ="Worker.findAllByIsActive")
     List<Worker> findAllByIsActive(IsActive isActive);
 
 

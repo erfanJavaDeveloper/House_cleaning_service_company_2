@@ -9,8 +9,12 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface WalletDao extends JpaRepository<Wallet,Long> {
 
+//    @Modifying
+//    @Query(value = "update Wallet set amount=:amount where employerId=:employerId ")
+//    Wallet update(Long amount,Long employerId);
+
     @Modifying
-    @Query(value = "update Wallet set amount=:amount where employerId=:employerId ")
+    @Query(name = "Wallet.update")
     Wallet update(Long amount,Long employerId);
 
 }
